@@ -200,6 +200,15 @@ ul {
 .team {
     text-align: center;
     background-color: var(--brand-color-gray);
+    padding-bottom: 94px;
+}
+.team-item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-image {
+    display: block;
 }
 .team-list {
     display: flex;
@@ -217,18 +226,23 @@ ul {
 
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .team-job {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--brand-color-gray2);
+    padding-bottom: 30px;
+}
+.team-information {
+    background-color: var(--brand-color-white);
 }
 .project-name {
     font-style: normal;
@@ -249,6 +263,10 @@ ul {
 }
 .bottom {
     background-color: var(--brand-color-dark);
+}
+.logo-bottom {
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 .logo-part2 {
     color: var(--brand-color-white);
