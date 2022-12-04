@@ -100,6 +100,13 @@ ul {
     background-color: var(--brand-color-dark);
     padding: 200px 452px;
 }
+.main-section > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 .main-header {
     color: var(--brand-color-white);
 
@@ -126,7 +133,6 @@ ul {
     cursor: pointer;
     padding: 10px 41px 10px 42px;
     border-radius: 4px;
-    margin: 30px 525px 0px;
 }
 .button-order:hover,
 .button-order:active,
