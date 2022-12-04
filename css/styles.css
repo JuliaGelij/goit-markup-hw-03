@@ -23,6 +23,12 @@ ul {
     padding: 0px;
     border: 0px;
 }
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
 .portfolio-background {
     background-color: var(--brand-color-white);
 }
@@ -32,19 +38,10 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
-.main-header {
-    background-color: var(--brand-color-dark);
-    color: var(--brand-color-white);
 
-    font-size: 44px;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 1.36;
-
-    text-align: center;
-    letter-spacing: 0.06em;
-}
 .logo {
     color: var(--brand-color-blue);
     font-family: 'Raleway', sans-serif;
@@ -52,16 +49,9 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    margin-left: 215px;
 }
 .logo-part {
     color: var(--brand-color-black);
-}
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 15px;
 }
 
 .list {
@@ -71,6 +61,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 93px;
 }
 .navigation-list {
     display: flex;
@@ -105,6 +96,21 @@ ul {
 .contact-link:hover {
     color: var(--brand-color-blue);
 }
+.main-section {
+    background-color: var(--brand-color-dark);
+    padding: 200px 452px;
+}
+.main-header {
+    color: var(--brand-color-white);
+
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+}
 .button-order {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-blue);
@@ -118,6 +124,9 @@ ul {
     letter-spacing: 0.03em;
     border: none;
     cursor: pointer;
+    padding: 10px 41px 10px 42px;
+    border-radius: 4px;
+    margin: 30px 525px 0px;
 }
 .button-order:hover,
 .button-order:active,
