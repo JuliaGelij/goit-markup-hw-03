@@ -62,14 +62,13 @@ ul {
     margin: auto;
     padding: 0 15px;
   }
-}
+
 .list {
     list-style-type: none;
 }
-.navigation-list {
-    display: flex;
-    justify-content: space-between;
-}
+.navigation {}
+.navigation-list 
+   
 .navigation-link {
     color: var(--brand-color-black2);
     font-style: normal;
