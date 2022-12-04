@@ -23,6 +23,7 @@ ul {
     padding: 0px;
     border: 0px;
 }
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -36,12 +37,17 @@ ul {
 .top {
     background-color: var(--brand-color-white);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px;
+    border-color: #ececec;
+    border-style: solid;
 }
-
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
     color: var(--brand-color-blue);
     font-family: 'Raleway', sans-serif;
@@ -140,6 +146,13 @@ ul {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
 }
+.filter-list {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
 .filter-button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-gray);
@@ -152,6 +165,8 @@ ul {
     letter-spacing: 0.03em;
     border: none;
     cursor: pointer;
+    padding: 6px 22px;
+    border-radius: 4px;
 }
 .filter-button:hover,
 .filter-button:active,
@@ -211,7 +226,6 @@ ul {
 .team-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
 }
 .team-image {
     display: block;
@@ -249,6 +263,23 @@ ul {
 }
 .team-information {
     background-color: var(--brand-color-white);
+    border-radius: 0px 0px 4px 4px;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+
+.project-information {
+    border-bottom: solid 1px #ececec;
+    border-left: solid 1px #ececec;
+    border-right: solid 1px #ececec;
+    padding: 20px 24px;
+}
+.project-image {
+    display: block;
 }
 .project-name {
     font-style: normal;
