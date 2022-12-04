@@ -153,6 +153,10 @@ ul {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
 }
+.description-list {
+    display: flex;
+    padding-top: 94px;
+}
 .description-name {
     font-style: normal;
     font-weight: 700;
@@ -160,6 +164,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .description-text {
     font-style: normal;
@@ -170,6 +175,15 @@ ul {
     letter-spacing: 0.03em;
 
     color: var(--brand-color-gray2);
+}
+.activities {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.activities-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 94px;
 }
 .caption {
     font-style: normal;
@@ -186,6 +200,14 @@ ul {
 .team {
     text-align: center;
     background-color: var(--brand-color-gray);
+}
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+.team-headder {
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 .team-name {
     font-style: normal;
