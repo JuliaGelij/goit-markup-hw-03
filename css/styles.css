@@ -263,10 +263,8 @@ ul {
 }
 .bottom {
     background-color: var(--brand-color-dark);
-}
-.logo-bottom {
     padding-top: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 .logo-part2 {
     color: var(--brand-color-white);
@@ -278,6 +276,12 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
+}
+.our-address-item {
+    padding-bottom: 9px;
+}
+.bottom > .logo {
+    padding-bottom: 20px;
 }
 .our-address-link {
     font-style: normal;
