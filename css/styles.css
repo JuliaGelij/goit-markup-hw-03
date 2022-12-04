@@ -272,6 +272,7 @@ ul {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .logo-part2 {
     color: var(--brand-color-white);
 }
@@ -283,12 +284,14 @@ ul {
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
 }
-.our-address-item {
+.our-address-item-city {
+    padding-top: 20px;
+}
+.our-address-item-email {
+    padding-top: 9px;
     padding-bottom: 9px;
 }
-.bottom > .logo {
-    padding-bottom: 20px;
-}
+
 .our-address-link {
     font-style: normal;
     font-weight: 400;
