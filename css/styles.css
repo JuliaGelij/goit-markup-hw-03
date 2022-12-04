@@ -30,6 +30,8 @@ ul {
 .top {
     background-color: var(--brand-color-white);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .main-header {
     background-color: var(--brand-color-dark);
@@ -55,20 +57,25 @@ ul {
 .logo-part {
     color: var(--brand-color-black);
 }
-.container{
-   
+.container {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     padding: 0 15px;
-  }
+}
 
 .list {
     list-style-type: none;
 }
-.navigation {}
-.navigation-list 
-   
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-list {
+    display: flex;
+    gap: 46px;
+}
 .navigation-link {
     color: var(--brand-color-black2);
     font-style: normal;
@@ -81,6 +88,11 @@ ul {
 .navigation-link:hover {
     color: var(--brand-color-blue);
 }
+.contact {
+    display: flex;
+    gap: 50px;
+}
+
 .contact-link {
     color: var(--brand-color-gray2);
     font-style: normal;
