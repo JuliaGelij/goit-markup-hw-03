@@ -107,7 +107,8 @@ ul {
 }
 .main-section {
     background-color: var(--brand-color-dark);
-    padding: 200px 452px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .main-section > .container {
     display: flex;
@@ -178,6 +179,7 @@ ul {
 }
 .description-list {
     display: flex;
+    gap: 30px;
 }
 .description-name {
     font-style: normal;
@@ -186,7 +188,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 .description-text {
     font-style: normal;
@@ -199,7 +201,7 @@ ul {
     color: var(--brand-color-gray2);
 }
 .activities {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .activities-list {
     display: flex;
@@ -216,15 +218,17 @@ ul {
 
 .description {
     background-color: var(--brand-color-white);
-    margin-top: 94px;
+    padding-top: 94px;
 }
 .team {
     text-align: center;
     background-color: var(--brand-color-gray);
 }
 .team-item {
+    background-color: var(--brand-color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-image {
     display: block;
@@ -234,7 +238,7 @@ ul {
     gap: 30px;
 }
 .team-headder {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 .team-name {
     font-style: normal;
@@ -244,8 +248,8 @@ ul {
 
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .team-job {
     font-style: normal;
@@ -259,10 +263,7 @@ ul {
     color: var(--brand-color-gray2);
     padding-bottom: 30px;
 }
-.team-information {
-    background-color: var(--brand-color-white);
-    border-radius: 0px 0px 4px 4px;
-}
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -313,11 +314,11 @@ ul {
     color: var(--brand-color-white);
 }
 .our-address-item-city {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .our-address-item-email {
-    padding-top: 9px;
-    padding-bottom: 9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .our-address-link {
